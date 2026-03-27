@@ -1,24 +1,29 @@
 # AI Test Case Generator
 
 ## 🔹 Project Overview
-This project generates test cases automatically based on user requirements using rule-based logic.
+An AI-powered web application that generates structured test cases from user requirements using Streamlit and NLP models.
 
 ## 🔹 Features
-- Generates test cases for login, payment, validation, etc.
-- Modular design using generator and formatter modules
-- Saves test cases into a file
+- Interactive UI using Streamlit
+- Generates structured test cases automatically
+- Displays output in table format
+- Download test cases as file
+- Modular architecture (generator + formatter)
 
-## 🔹 Project Structure
-ai_test_generator/
-│── generator.py
-│── formatter.py
-│── app.py
-│── main.py
-│── requirements.txt
-│── test_cases.txt
+## 🔹 Tech Stack
+- Python
+- Streamlit
+- Pandas
+- Transformers (Hugging Face)
+- PyTorch
 
 ## 🔹 How to Run
-python main.py
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Run application
+streamlit run app.py
 
 ## 🔹 Author
 Rajshri Dhage
