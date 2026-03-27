@@ -1,0 +1,1 @@
+1. Verify login with valid credentials - User should login successfully
